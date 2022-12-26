@@ -1,0 +1,100 @@
+@import "./media.css";
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Header*/
+
+main.main {
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 40px 5% 0 5%;
+  height: 100vh;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav * {
+  margin-left: 48px;
+}
+
+.logo_span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav_span {
+  font-size: 18px;
+  color: #EEEEEE;
+}
+
+/* Main*/
+
+#main {
+  padding-top: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text h1 {
+  font-size: 96px;
+  font-weight: bold;
+  padding-bottom: 62px;
+}
+
+.Designer {
+  color: #00ADB5;
+}
+
+#hireme {
+  background-color: #00ADB5;
+  border-radius: 24px;
+  width: 136px;
+  height: 47px;
+  cursor: pointer;
+}
+
+#download {
+  background-color: #393E46;
+  border-radius: 24px;
+  width: 223px;
+  height: 47px;
+  cursor: pointer;
+  margin-left: 24px;
+}
+
+.button_span {
+  color: #EEEEEE;
+  font-size: 18px;
+  font-weight: bold;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+/* #man {
+  position: absolute;
+  bottom: 150px;
+  left: 1185px;
+} */
+
+#download_photo {
+  height: 20px;
+  width: 20x;
+  position: relative;
+}
+
+/* About Me */
+
+main.aboutme {
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 40px 5% 0 5%;
+  height: 100vh;
+}
