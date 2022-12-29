@@ -11,38 +11,111 @@
 <body>
   <main class="main">
     <div id="header">
+
       <div class="logo">
         <span class="logo_span">David Kacheishvili</span>
       </div>
+
       <div class="nav">
         <a href="#" class="nav_span"><span>Home</span></a>
-        <a href="#" class="nav_span"><span>About Me</span></a>
-        <a href="#" class="nav_span"><span>Contact</span></a>
+        <a href="#aboutme" class="nav_span"><span>About Me</span></a>
+        <a href="#myrecentworks" class="nav_span"><span>Contact</span></a>
       </div>
+
+      <div class="menu">
+        <a href="">Menu</a>
+      </div>
+
     </div>
+
     <div id="main">
       <div class="text">
-        <h1>CREATIVE UI<br><span class="Designer">DESIGNER</span></h1>
-        <a href="#">
-          <button type="button" id="hireme">
-            <span class=button_span>Hire me</span>
-          </button>
-        </a>
-        <a href="">
-          <button type="Download" id="download">
-            <span class="button_span">Download CV</span>
-            <img src="img/icons/download.png" alt="" id="download_photo">
-          </button>
-        </a>
+        <h1 id="creative">CREATIVE UI<br><span class="Designer">DESIGNER</span></h1>
+
+        <div id="twobuttons">
+          <a href="#">
+            <button type="button" id="hireme">
+              <span class=button_span>Hire me</span>
+            </button>
+          </a>
+
+          <a href="#">
+            <button type="Download" id="download">
+              <span class="button_span">Download CV</span>
+              <img src="img/icons/download.png" alt="" id="download_photo">
+            </button>
+          </a>
+        </div>
       </div>
+
       <div class="photo">
         <!-- <img src="img/Materials/Group 2345.png" alt="" id="man"> -->
         <img src="img/Materials/doodles mixed round.png" alt="">
       </div>
     </div>
   </main>
-  <main class="aboutme">
-    <h1>Hello, World!</h1>
+  <main id="aboutme">
+
+    <div class="text">
+      <span id="aboutme_span">About <span id="aboutme_me">me</span></span>
+      <p id="aboutme_p">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Nunc vulputate libero et <br>
+        velit interdum,
+        aliquet odio mattis. Class <br> aptent taciti sociosqu ad litora torquent <br> per conubia nostra, per inceptos
+        <br> himenaeos. Curabitur tempus urna at <br> turpis condimentum lobortis....
+      </p>
+    </div>
+
+    <div class="photo">
+      <img src="img/Materials/doodle items.png" alt="">
+    </div>
+  </main>
+
+  <main id="myrecentworks">
+    <h1 id="myrecentworks_h1">My recent <span id="span_h1">works</span></h1>
+    <div id="buttons">
+      <a href="#">
+        <button type="button" id="all">
+          <span class=button_span>All</span>
+        </button>
+      </a>
+
+      <a href="#">
+        <button type="button" id="frontend">
+          <span class=button_span>Frontend</span>
+        </button>
+      </a>
+
+      <a href="#">
+        <button type="button" id="discord">
+          <span class=button_span>Discord</span>
+        </button>
+      </a>
+    </div>
+    <div class="three_img">
+
+    </div>
+  </main>
+  <main id="mind">
+    <div class="photo">
+      <img src="img/Materials/Up.png" alt="">
+    </div>
+
+    <form action="#" class="form">
+      <h3 id="urname">Your name</h3>
+      <h3 id="uremail">Your email</h3>
+      <textarea name="name" id="name" placeholder="Name" style="padding: 10px 0 0 10px;"></textarea>
+      <textarea name="email" id="email" placeholder="Email" style="padding: 10px 0 0 10px;"></textarea>
+      <h3 id="urmessage">Your message</h3>
+      <textarea name="message" id="message" placeholder="Message" style="padding: 10px 0 0 10px;"></textarea>
+      <button id="send">
+        <span>Send message</span>
+        <img src="img/icons/send.png" alt="">
+      </button>
+    </form>
+
+    </div>
+  </main>
+
   </main>
 </body>
 
