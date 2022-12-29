@@ -8,7 +8,7 @@ main.main {
   background-color: #222831;
   color: #EEEEEE;
   padding: 40px 5% 0 5%;
-  height: 100vh;
+  height: 1024px;
 }
 
 #header {
@@ -105,7 +105,7 @@ main#aboutme {
   background-color: #222831;
   color: #EEEEEE;
   padding: 275px 5% 0 5%;
-  height: 100vh;
+  height: 1024px;
 }
 
 #aboutme_span {
@@ -132,7 +132,7 @@ main#myrecentworks {
   background-color: #222831;
   color: #EEEEEE;
   padding: 200px 5% 0 5%;
-  height: 100vh;
+  height: 1024px;
   background-image: url("../img/Materials/Projects\ Page.png");
 }
 
@@ -207,7 +207,7 @@ main#mind {
   background-color: #222831;
   color: #EEEEEE;
   padding: 275px 5% 0 5%;
-  height: 100vh;
+  height: 1024px;
   display: flex;
   justify-content: space-between;
 }
@@ -242,11 +242,6 @@ main#mind {
   margin-top: 10px;
 }
 
-#send img {
-  margin: 5px 0 0 10px;
-  width: 24px;
-  height: 24px;
-}
 
 textarea {
   background-color: #393E46;
