@@ -5,39 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Kacheishvili</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="img/Materials/davkchv.png">
+  <link rel="icon" href="img/Materials/icon.png">
 </head>
 
 <body>
   <main class="main">
     <div id="header">
-
-      <div class="logo">
+      <div id="logo">
         <span class="logo_span">David Kacheishvili</span>
-        <span id="hide_span">DavKchv</span>
+        <span class="hide_span">DavKchv</span>
       </div>
 
-      <div class="nav">
-        <a href="#aboutme" class="nav_span"><span>
-            About Me
-          </span></a>
-        <a href="#myrecentworks" class="nav_span"><span>Works</span></a>
-        <a href="#form" class="nav_span"><span>Contact</span></a>
+      <div id="nav">
+        <a href="#aboutme" class="nav_span"> <span>About Me</span> </a>
+        <a href="#myrecentworks" class="nav_span"> <span>Works</span> </a>
+        <a href="#form" class="nav_span"> <span>Contact</span> </a>
       </div>
 
-      <div class="menu">
-        <a href="">
-          <img src="img/icons/menu.png" alt="" id="menu">
-        </a>
+      <div id="menu">
+        <a href=""><img src="img/icons/menu.png" alt="Menu"></a>
       </div>
-
     </div>
 
     <div id="main">
       <div class="text">
-        <h1 id="creative">CREATIVE<span class="Designer"><br>
-            FRONTEND<br>DEVELOPER
-          </span></h1>
+        <h1 id="creative">
+          CREATIVE
+          <span class="Designer">
+            <br>
+            FRONTEND
+            <br>DEVELOPER
+          </span>
+        </h1>
 
         <div id="twobuttons">
           <button type="button" id="hireme">
@@ -48,20 +47,20 @@
             <span class="button_span">Download CV</span>
             <img src="img/icons/download.png" alt="" id="download_photo">
           </button>
-
         </div>
       </div>
 
       <div class="photo">
-        <!-- <img src="img/Materials/Group 2345.png" alt="" id="man"> -->
-        <img src="img/Materials/doodles mixed round.png" alt="">
+        <img src="img/Materials/main.png" alt="">
       </div>
     </div>
   </main>
+
   <main id="aboutme">
     <div class="text">
-      <span id="aboutme_span">About <span id="aboutme_me">me</span></span>
-      <p id="aboutme_p">
+      <span class="aboutme_span">About <span class="aboutme_me">me</span></span>
+
+      <p class="aboutme_p">
         Hello, My name is David Kacheishvili.
         <br>
         I'm 17 years old.
@@ -76,27 +75,29 @@
     </div>
 
     <div class="photo">
-      <img src="img/Materials/doodle items.png" alt="">
+      <img src="img/Materials/aboutme.png" alt="">
     </div>
   </main>
+
   <main id="myrecentworks">
-    <h1 id="myrecentworks_h1">My recent <span id="span_h1">works</span></h1>
+    <h1 id="myrecentworks_h1">My recent <span class="span_h1">works</span></h1>
+
     <div id="buttons">
       <a href="#">
         <button type="button" id="all">
-          <span class=button_span>All</span>
+          <span class="button_span">All</span>
         </button>
       </a>
 
       <a href="#">
         <button type="button" id="frontend">
-          <span class=button_span>Frontend</span>
+          <span class="button_span">Frontend</span>
         </button>
       </a>
 
       <a href="#">
         <button type="button" id="discord">
-          <span class=button_span>Discord</span>
+          <span class="button_span">Discord</span>
         </button>
       </a>
     </div>
@@ -106,54 +107,68 @@
         <source srcset="img/Materials/movieebox.jpg" media="(max-width:375px)">
         <img src="img/Materials/moviebox.jpg" alt="" id="oneimg">
       </picture>
-      <picture><img src="img/Materials/moviebox.jpg" alt="" id="twoimg"></picture>
-      <picture><img src="img/Materials/moviebox.jpg" alt="" id="threeimg"></picture>
+
+      <picture>
+        <img src="img/Materials/moviebox.jpg" alt="" id="twoimg">
+      </picture>
+
+      <picture>
+        <img src="img/Materials/moviebox.jpg" alt="" id="threeimg">
+      </picture>
     </div>
   </main>
+
   <main id="form">
     <div class="photo">
-      <img src="img/Materials/Up.png" alt="">
+      <img src="img/Materials/form.png" alt="">
     </div>
 
-    <form action="" class="form">
-      <h3 id="urname">Your name</h3>
-      <h3 id="uremail">Your email</h3>
+    <form>
+      <h3 id="username">Your name</h3>
+      <h3 id="useremail">Your email</h3>
       <textarea name="name" id="name" placeholder="Name" style="padding: 10px 0 0 10px;" required></textarea>
       <textarea name="email" id="email" placeholder="Email" style="padding: 10px 0 0 10px;" required></textarea>
-      <h3 id="urmessage">Your message</h3>
+      <h3 id="usermessage">Your message</h3>
       <textarea name="message" id="message" placeholder="Message" style="padding: 10px 0 0 10px;" required></textarea>
       <button type="submit" id="send" name="send">
         <span>Send message</span>
       </button>
     </form>
     </div>
+
   </main>
   <footer id="footer">
-    <div class="imgsection1">
+    <div id="imgsection1">
       <div class="oneimg">
         <a href="#">
-          <img src="img/icons/user.png" alt="">
+          <img src="img/icons/user.png" alt="user">
           <span>About Me</span>
         </a>
       </div>
+
       <div class="oneimg">
         <a href="#">
-          <img src="img/icons/home.png" alt="">
+          <img src="img/icons/home.png" alt="works">
           <span>Works</span>
         </a>
       </div>
+
       <div class="oneimg">
         <a href="#">
-          <img src="img/icons/phone.png" alt="">
+          <img src="img/icons/phone.png" alt="phone">
           <span>Contact</span>
         </a>
       </div>
     </div>
-    <div class="imgsection2">
-      <a href=""><img src="img/icons/facebool.png" alt=""></a>
-      <a href=""><img src="img/icons/meta.png" alt=""></a>
-      <a href=""><img src="img/icons/twitter.png" alt=""></a>
-      <a href=""><img src="img/icons/youtube.png" alt=""></a>
+
+    <div id="imgsection2">
+      <a href="#"><img src="img/icons/facebook.png" alt="facebook"></a>
+
+      <a href="#"><img src="img/icons/instagramm.png" alt="instagramm"></a>
+
+      <a href="#"><img src="img/icons/twitter.png" alt="twitter"></a>
+
+      <a href="#"><img src="img/icons/youtube.png" alt="youtube"></a>
     </div>
   </footer>
   </main>
