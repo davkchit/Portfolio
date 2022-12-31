@@ -18,9 +18,13 @@
       </div>
 
       <div class="nav">
-        <a href="#" class="nav_span"><span>Home</span></a>
-        <a href="#aboutme" class="nav_span"><span>About Me</span></a>
-        <a href="#myrecentworks" class="nav_span"><span>Contact</span></a>
+        <a href="#aboutme" class="nav_span"><span>
+            About Me
+          </span></a>
+        <a href="#myrecentworks" class="nav_span"><span>Works</span></a>
+        <a href="#form" class="nav_span"><span>Contact
+
+          </span></a>
       </div>
 
       <div class="menu">
@@ -34,22 +38,19 @@
     <div id="main">
       <div class="text">
         <h1 id="creative">CREATIVE<span class="Designer"><br>
-        FRONTEND<br>DEVELOPER
-        </span></h1>
+            FRONTEND<br>DEVELOPER
+          </span></h1>
 
         <div id="twobuttons">
-          <a href="#">
-            <button type="button" id="hireme">
-              <span class=button_span>Hire me</span>
-            </button>
-          </a>
+          <button type="button" id="hireme">
+            <span class=button_span>Hire me</span>
+          </button>
 
-          <a href="#">
-            <button type="Download" id="download">
-              <span class="button_span">Download CV</span>
-              <img src="img/icons/download.png" alt="" id="download_photo">
-            </button>
-          </a>
+          <button type="Download" id="download">
+            <span class="button_span">Download CV</span>
+            <img src="img/icons/download.png" alt="" id="download_photo">
+          </button>
+
         </div>
       </div>
 
@@ -72,7 +73,7 @@
         frontend development. Next, you will be able to see <br>
         my projects and ways to contact me if
         <br>
-        you have a need to create a website. 
+        you have a need to create a website.
       </p>
     </div>
 
@@ -106,45 +107,50 @@
 
     </div>
   </main>
-  <main id="mind">
+  <main id="form">
     <div class="photo">
       <img src="img/Materials/Up.png" alt="">
     </div>
 
-    <form action="#" class="form">
+    <form action="" class="form">
       <h3 id="urname">Your name</h3>
       <h3 id="uremail">Your email</h3>
-      <textarea name="name" id="name" placeholder="Name" style="padding: 10px 0 0 10px;"></textarea>
-      <textarea name="email" id="email" placeholder="Email" style="padding: 10px 0 0 10px;"></textarea>
+      <textarea name="name" id="name" placeholder="Name" style="padding: 10px 0 0 10px;" required></textarea>
+      <textarea name="email" id="email" placeholder="Email" style="padding: 10px 0 0 10px;" required></textarea>
       <h3 id="urmessage">Your message</h3>
-      <textarea name="message" id="message" placeholder="Message" style="padding: 10px 0 0 10px;"></textarea>
-      <button id="send">
+      <textarea name="message" id="message" placeholder="Message" style="padding: 10px 0 0 10px;" required></textarea>
+      <button type="submit" id="send" name="send">
         <span>Send message</span>
       </button>
     </form>
-
     </div>
   </main>
   <footer id="footer">
     <div class="imgsection1">
       <div class="oneimg">
-        <img src="img/icons/home.png" alt="">
-        <span>Home</span>
+        <a href="#">
+          <img src="img/icons/home.png" alt="">
+          <span>Home</span>
+        </a>
       </div>
       <div class="oneimg">
-        <img src="img/icons/user.png" alt="">
-        <span>Home</span>
+        <a href="#">
+          <img src="img/icons/user.png" alt="">
+          <span>About Me</span>
+        </a>
       </div>
       <div class="oneimg">
-        <img src="img/icons/phone.png" alt="">
-        <span>Home</span>
+        <a href="#">
+          <img src="img/icons/phone.png" alt="">
+          <span>Contact</span>
+        </a>
       </div>
     </div>
     <div class="imgsection2">
-      <img src="img/icons/facebool.png" alt="">
-      <img src="img/icons/meta.png" alt="">
-      <img src="img/icons/twitter.png" alt="">
-      <img src="img/icons/youtube.png" alt="">
+      <a href=""><img src="img/icons/facebool.png" alt=""></a>
+      <a href=""><img src="img/icons/meta.png" alt=""></a>
+      <a href=""><img src="img/icons/twitter.png" alt=""></a>
+      <a href=""><img src="img/icons/youtube.png" alt=""></a>
     </div>
   </footer>
   </main>

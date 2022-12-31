@@ -228,13 +228,13 @@ picture img {
   max-width: 100%;
 }
 
-main#mind {
+main#form {
   background-color: #222831;
   color: #EEEEEE;
-  padding: 275px 5% 0 5%;
-  height: 1024px;
   display: flex;
   justify-content: space-between;
+  padding: 275px 5% 0 5%;
+  height: 1024px;
 }
 
 .form {
@@ -333,7 +333,7 @@ footer#footer {
 
 @media (max-width: 380px) {
   #creative {
-    font-size: 46px;
+    font-size: 44px;
   }
 }
 
