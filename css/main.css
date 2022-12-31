@@ -69,6 +69,15 @@ main.main {
   color: #00ADB5;
 }
 
+#three_img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+
 #twobuttons {
   display: flex;
   flex-wrap: wrap;
@@ -150,11 +159,6 @@ main#myrecentworks {
   background-image: url("../img/Materials/Projects\ Page.png");
 }
 
-picture img {
-  max-width: 100%;
-  max-height: 350px;
-}
-
 #myrecentworks_h1 {
   font-size: 64px;
   font-weight: bold;
@@ -200,18 +204,6 @@ picture img {
   cursor: pointer;
 }
 
-.three_img {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  align-content: space-between;
-  gap: 10px;
-}
-
-.three_img img {
-  object-fit: cover;
-  object-position: center;
-}
 
 .imgsec {
   margin-right: 10px;
@@ -300,6 +292,8 @@ footer#footer {
   padding-top: 50px;
 }
 
+
+
 @media (max-width:666px) {
   #creative {
     font-size: 64px;
@@ -337,7 +331,6 @@ footer#footer {
   }
 }
 
-
 @media (max-width: 991.98px) {
 
   #header .nav {
@@ -358,6 +351,15 @@ footer#footer {
 
 }
 
+@media (max-width:791px) {
+  #twoimg {
+    display: none;
+  }
+
+  #oneimg {
+    margin: 0 auto;
+  }
+}
 
 @media (max-width: 1199.98px) {
 
@@ -371,6 +373,10 @@ footer#footer {
 
 .form {
   margin: 0 auto;
+}
+
+#threeimg {
+  display: none;
 }
 
 }
