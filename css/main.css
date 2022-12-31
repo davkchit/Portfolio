@@ -303,12 +303,15 @@ footer#footer {
 
 @media (max-width:454px) {
   #creative {
-    font-size: 46px;
+    font-size: 56px;
   }
 
   #main {
     justify-content: center;
-    padding-top: 100px;
+  }
+
+  #twobuttons {
+    padding-top: 108px;
   }
 }
 
