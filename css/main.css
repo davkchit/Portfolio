@@ -156,7 +156,7 @@ main#myrecentworks {
 #all {
   background-color: #00ADB5;
   width: 88px;
-  border-radius:24px;
+  border-radius: 24px;
   height: 47px;
   cursor: pointer;
 }
@@ -164,16 +164,16 @@ main#myrecentworks {
 #frontend {
   background-color: #393E46;
   width: 100px;
-  border-radius:24px;
+  border-radius: 24px;
   height: 47px;
-  backdrop-filter: blur(8px); 
+  backdrop-filter: blur(8px);
   cursor: pointer;
 }
 
 #discord {
   background-color: #393E46;
   width: 88px;
-  border-radius:24px;
+  border-radius: 24px;
   height: 47px;
   backdrop-filter: blur(8px);
   cursor: pointer;
@@ -243,7 +243,7 @@ textarea {
 }
 
 .oneimg span {
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 #imgsection2 {
@@ -327,20 +327,20 @@ textarea {
 
 @media (max-width: 1199.98px) {
 
-.photo {
-  display: none;
-}
+  .photo {
+    display: none;
+  }
 
-.text {
-  margin: 0 auto;
-}
+  .text {
+    margin: 0 auto;
+  }
 
-form {
-  margin: 0 auto;
-}
+  form {
+    margin: 0 auto;
+  }
 
-#threeimg {
-  display: none;
-}
+  #threeimg {
+    display: none;
+  }
 
 }
