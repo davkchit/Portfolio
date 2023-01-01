@@ -271,12 +271,20 @@ textarea {
 @media (max-width:454px) {
   #creative {
     font-size: 56px;
+    padding-bottom: 0px;
+  }
+
+  main#aboutme {
+    padding-top: 0px;
+    height: 512px;
   }
 
   #main {
-    justify-content: center;
+    padding-top: 108px;
+    display: flex;
+    justify-content: space-between;
   }
-
+  
   #twobuttons {
     padding-top: 108px;
   }
