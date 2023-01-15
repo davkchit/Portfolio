@@ -274,11 +274,6 @@ textarea {
     padding-bottom: 0px;
   }
 
-  main#aboutme {
-    padding-top: 0px;
-    height: 512px;
-  }
-
   #main {
     padding-top: 108px;
     display: flex;
@@ -305,6 +300,47 @@ textarea {
   #creative {
     font-size: 44px;
   }
+
+  .aboutme_span, .aboutme_me {
+    font-size: 44px;
+  }
+
+  main#aboutme {
+    padding-top: 106px;
+    height: 512px;
+  }
+
+  main.main {
+    height: 512px;
+  }
+
+  main#myrecentworks {
+    height: 800px;
+    padding-top: 80px;
+  }
+
+  #myrecentworks_h1 {
+    font-size: 44px;
+  }
+
+  main#form {
+    height: 600px;
+    padding-top: 100px;
+  }
+
+  #footer {
+    height: 300px;
+    padding-top: 55px;
+  }
+
+  #main {
+    padding-top: 0px;
+  }
+
+  #twobuttons {
+    margin-top: -60px;
+  }
+
 }
 
 @media (max-width: 991.98px) {
